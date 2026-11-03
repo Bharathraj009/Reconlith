@@ -13,6 +13,15 @@ workspace. It connects service symptoms to bounded metrics, traces, logs and
 reconciliation evidence while keeping financial writes and human authorization
 in separate components.
 
+## Watch the Project Demo
+
+[![Watch the Reconlith project demo — operations dashboard preview](docs/images/reconlith-overview-desktop.png)](https://github.com/Bharathraj009/Reconlith/releases/download/demo-v1/Reconlith_Demo_v1.mp4.mp4)
+
+**[▶ Watch the project demo](https://github.com/Bharathraj009/Reconlith/releases/download/demo-v1/Reconlith_Demo_v1.mp4.mp4)**
+
+Watch the Reconlith project walkthrough, covering banking transactions, reconciliation,
+monitoring, and AI-assisted investigation.
+
 ![Reconlith operations overview captured from the actual React interface](docs/images/reconlith-overview-desktop.png)
 
 *Actual React interface, captured locally at 1600 x 900 on 2026-11-01.
@@ -97,30 +106,11 @@ regressions, synthetic browser fixtures and scheduler integration.
 | Implemented | Transactional banking, read-only reconciliation, four-node investigation, local retrieval/citation validation and separately gated human approvals exist in source. |
 | Tested in fixtures | Scheduled reconciliation-to-UI integration used a disposable synthetic environment; ordinary browser tests use fixtures and provider tests mock inference. |
 | Normal local stack | The quick start runs without cloud inference; the complete scheduled-evidence/log path needs the additional configuration documented below. |
-| Planned or unverified | The demo video, production deployment and successful live cloud inference are not established by the published evidence. |
+| Planned or unverified | Production deployment and successful live cloud inference are not established by the published evidence. |
 
 The actual Step 75 RCA outcome was **Undetermined**, with inference disabled and
 **no hypotheses**. Local retrieval found relevant documentation; that does not
 establish a cause. See the [evidence guide](docs/VERIFICATION_EVIDENCE.md) for scope.
-
-## Planned 90-second hybrid demo
-
-No demo video has been recorded or published yet. The planned sequence is:
-
-- **0-20s:** introduce Reconlith, the banking integrity problem and architecture.
-- **20-55s:** newly recorded real local UI footage showing an explicit investigation,
-  monitoring/traces, the LangGraph workflow result, retrieved runbooks and source
-  citations; label the configuration and data scope.
-- **55-75s:** separately labeled historical synthetic test evidence from Step 75,
-  showing Airflow reconciliation, the scheduled evidence gap, partial metrics and
-  Undetermined RCA.
-- **75-90s:** explain human approval boundaries, test navigation and limitations.
-
-Any illustrative animation will be labeled as an explanation of architecture or
-workflow, separately from real application footage and historical test evidence.
-Historical evidence will be identified by its date and fixture scope. New footage
-must show its actual observed result; it will not be presented as a replay of the
-historical integration or as successful live inference.
 
 ## Engineering challenges
 
