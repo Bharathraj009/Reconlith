@@ -20,7 +20,7 @@ defaults:
 
 env:
   # Digest-pinned scanner, no third-party scanner action or host Docker socket.
-  TRIVY_IMAGE: aquasec/trivy:0.71.0@sha256:016eae51fdcf989332a5404af7e8f625cd5d95d7c0907a221d080a996f556500
+  TRIVY_IMAGE: aquasec/trivy:0.76.1@sha256:790fd66d1697395d8693d1acaa1ea702406a20f109b6fc7bac8db623eca6c06c
   DOCKER_BUILD_RECORD_UPLOAD: 'false'
 
 jobs:
@@ -79,8 +79,8 @@ jobs:
           path: |
             ${{ runner.temp }}/trivy-cache/db
             ${{ runner.temp }}/trivy-cache/java-db
-          key: trivy-0.71.0-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: trivy-0.71.0-${{ runner.os }}-
+          key: trivy-0.76.1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: trivy-0.76.1-${{ runner.os }}-
       - name: Record build identity and digest-pinned bases
         env:
           IMAGE: ${{ matrix.image }}
@@ -117,7 +117,7 @@ jobs:
           path: |
             ${{ runner.temp }}/trivy-cache/db
             ${{ runner.temp }}/trivy-cache/java-db
-          key: trivy-0.71.0-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          key: trivy-0.76.1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Generate CycloneDX SBOM from the same package inventory
         run: |
           docker run --rm \
