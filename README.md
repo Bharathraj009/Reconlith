@@ -150,7 +150,7 @@ Prerequisites: Git, Python **3.12** and Docker Desktop/Engine with Compose 2.24.
 Host-side development tests also use Java 21 and Node 22.
 
 ```bash
-git clone https://github.com/Bharathraj009/bankops-ai.git
+git clone https://github.com/Bharathraj009/Reconlith.git bankops-ai
 cd bankops-ai
 python3.12 local/platform.py up
 python3.12 local/platform.py health

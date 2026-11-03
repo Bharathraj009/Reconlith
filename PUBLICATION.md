@@ -1,9 +1,9 @@
 # Public repository scope
 
-[Bharathraj009/bankops-ai](https://github.com/Bharathraj009/bankops-ai) contains the
+[Bharathraj009/Reconlith](https://github.com/Bharathraj009/Reconlith) contains the
 banking service, reliability agent, operations dashboard, reconciliation workflow,
 configuration templates and authored verification records. Published baseline
-[`36a88e8`](https://github.com/Bharathraj009/bankops-ai/commit/36a88e892c10a7ffba6660a9096b42d5a65f812b)
+[`36a88e8`](https://github.com/Bharathraj009/Reconlith/commit/36a88e892c10a7ffba6660a9096b42d5a65f812b)
 includes the documentation quality audit following implementation commit `8dff277`.
 See [publication verification](PUBLICATION_READINESS.md).
 

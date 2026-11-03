@@ -74,8 +74,8 @@ of this documentation change.
 
 ## Hosted CI and unresolved security findings
 
-The recorded [application run](https://github.com/Bharathraj009/bankops-ai/actions/runs/41060960966)
-passed all four jobs for 36a88e8. Its [image run](https://github.com/Bharathraj009/bankops-ai/actions/runs/41060960956)
+The recorded [application run](https://github.com/Bharathraj009/Reconlith/actions/runs/41060960966)
+passed all four jobs for 36a88e8. Its [image run](https://github.com/Bharathraj009/Reconlith/actions/runs/41060960956)
 had five blocked gates: agent, airflow, airflow-test, frontend and database.
 Banking and Jaeger passed that scan. The [authored artifact review](verification/HOSTED_36A88E8.md)
 records 44 unique HIGH advisory/package/version findings across eight CVEs and

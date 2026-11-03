@@ -1,12 +1,12 @@
 # Publication status and verification
 
 Published baseline:
-[`36a88e892c10a7ffba6660a9096b42d5a65f812b`](https://github.com/Bharathraj009/bankops-ai/commit/36a88e892c10a7ffba6660a9096b42d5a65f812b),
+[`36a88e892c10a7ffba6660a9096b42d5a65f812b`](https://github.com/Bharathraj009/Reconlith/commit/36a88e892c10a7ffba6660a9096b42d5a65f812b),
 branch `main`. The documentation quality-audit follow-up was committed and pushed
 after implementation commit `8dff277`.
 
-[Application CI](https://github.com/Bharathraj009/bankops-ai/actions/runs/41060960966)
-passed all four jobs. [Image security](https://github.com/Bharathraj009/bankops-ai/actions/runs/41060960956)
+[Application CI](https://github.com/Bharathraj009/Reconlith/actions/runs/41060960966)
+passed all four jobs. [Image security](https://github.com/Bharathraj009/Reconlith/actions/runs/41060960956)
 analyzed all seven targets and generated their SBOMs; five strict gates blocked on
 HIGH findings. The scans contain 44 unique HIGH package findings across eight CVEs
 and zero CRITICAL. Banking and Jaeger passed. See [per-image verification](docs/verification/HOSTED_36A88E8.md).

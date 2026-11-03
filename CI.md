@@ -1,6 +1,6 @@
 # GitHub Actions and verification history
 
-Published baseline: `36a88e8`. [Application CI](https://github.com/Bharathraj009/bankops-ai/actions/runs/41060960966)
+Published baseline: `36a88e8`. [Application CI](https://github.com/Bharathraj009/Reconlith/actions/runs/41060960966)
 passed all four jobs. [Hosted image verification](docs/verification/HOSTED_36A88E8.md)
 recorded five blocked gates, 44 unique HIGH package findings and zero CRITICAL;
 banking and Jaeger passed. Strict gates include unfixed findings. Workflows build,
